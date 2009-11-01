@@ -1,0 +1,2 @@
+Esse codigo esta cheio de gambiarra pra termina o TCC a tempo.
+Quando tiver tempo tem q fazer um refactory.

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="datCurriculos" targetNamespace="http://tempuri.org/datCurriculos.xsd" xmlns:mstns="http://tempuri.org/datCurriculos.xsd" xmlns="http://tempuri.org/datCurriculos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="datCurriculos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="datCurriculos" msprop:Generator_DataSetName="datCurriculos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Publicacao" msprop:Generator_UserTableName="Publicacao" msprop:Generator_RowDeletedName="PublicacaoRowDeleted" msprop:Generator_RowChangedName="PublicacaoRowChanged" msprop:Generator_RowClassName="PublicacaoRow" msprop:Generator_RowChangingName="PublicacaoRowChanging" msprop:Generator_RowEvArgName="PublicacaoRowChangeEvent" msprop:Generator_RowEvHandlerName="PublicacaoRowChangeEventHandler" msprop:Generator_TableClassName="PublicacaoDataTable" msprop:Generator_TableVarName="tablePublicacao" msprop:Generator_RowDeletingName="PublicacaoRowDeleting" msprop:Generator_TablePropName="Publicacao">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Titulo" msprop:Generator_UserColumnName="Titulo" msprop:Generator_ColumnPropNameInRow="Titulo" msprop:Generator_ColumnVarNameInTable="columnTitulo" msprop:Generator_ColumnPropNameInTable="TituloColumn" type="xs:string" />
+              <xs:element name="Citacoes" msprop:Generator_UserColumnName="Citacoes" msprop:Generator_ColumnVarNameInTable="columnCitacoes" msprop:Generator_ColumnPropNameInRow="Citacoes" msprop:Generator_ColumnPropNameInTable="CitacoesColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Autor" msprop:Generator_UserTableName="Autor" msprop:Generator_RowDeletedName="AutorRowDeleted" msprop:Generator_RowChangedName="AutorRowChanged" msprop:Generator_RowClassName="AutorRow" msprop:Generator_RowChangingName="AutorRowChanging" msprop:Generator_RowEvArgName="AutorRowChangeEvent" msprop:Generator_RowEvHandlerName="AutorRowChangeEventHandler" msprop:Generator_TableClassName="AutorDataTable" msprop:Generator_TableVarName="tableAutor" msprop:Generator_RowDeletingName="AutorRowDeleting" msprop:Generator_TablePropName="Autor">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nome" msprop:Generator_UserColumnName="Nome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_ColumnPropNameInTable="NomeColumn" type="xs:string" />
+              <xs:element name="H_Index" msprop:Generator_UserColumnName="H_Index" msprop:Generator_ColumnPropNameInRow="H_Index" msprop:Generator_ColumnVarNameInTable="columnH_Index" msprop:Generator_ColumnPropNameInTable="H_IndexColumn" type="xs:int" />
+              <xs:element name="G_Index" msprop:Generator_UserColumnName="G_Index" msprop:Generator_ColumnVarNameInTable="columnG_Index" msprop:Generator_ColumnPropNameInRow="G_Index" msprop:Generator_ColumnPropNameInTable="G_IndexColumn" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurriculoParser", "CurriculoParser\CurriculoParser.csproj", "{C3A86297-9B33-4F2B-A5E3-52D05412D535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{4CF51F05-FB3E-451B-BBA5-578411E8B7D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{2C100FEA-831F-47A0-8157-A1248B390A27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{5DECB762-19E6-4ECB-BBAA-036161D5E20E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLattes", "TC1\HLattes.csproj", "{181F3A38-BB8A-4BD8-82CD-3DA542617116}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rd-party", "3rd-party", "{6C3072D8-8FB1-4F1F-90F1-950B5B43EF66}"
+	ProjectSection(SolutionItems) = preProject
+		3rd-party\log4net.dll = 3rd-party\log4net.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BA21A63-07D4-42E4-80EC-AFE54A7E1888}"
+	ProjectSection(SolutionItems) = preProject
+		Leia-me.txt = Leia-me.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs05.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Common\\Common.csproj
+		SccProjectName1 = Common
+		SccLocalPath1 = Common
+		SccProjectUniqueName2 = Core\\Core.csproj
+		SccProjectName2 = Core
+		SccLocalPath2 = Core
+		SccProjectUniqueName3 = CurriculoParser\\CurriculoParser.csproj
+		SccProjectName3 = CurriculoParser
+		SccLocalPath3 = CurriculoParser
+		SccProjectUniqueName4 = Model\\Model.csproj
+		SccProjectName4 = Model
+		SccLocalPath4 = Model
+		SccProjectUniqueName5 = TC1\\hlattes.csproj
+		SccProjectName5 = TC1
+		SccLocalPath5 = TC1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A86297-9B33-4F2B-A5E3-52D05412D535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A86297-9B33-4F2B-A5E3-52D05412D535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A86297-9B33-4F2B-A5E3-52D05412D535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A86297-9B33-4F2B-A5E3-52D05412D535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF51F05-FB3E-451B-BBA5-578411E8B7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF51F05-FB3E-451B-BBA5-578411E8B7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF51F05-FB3E-451B-BBA5-578411E8B7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF51F05-FB3E-451B-BBA5-578411E8B7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C100FEA-831F-47A0-8157-A1248B390A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C100FEA-831F-47A0-8157-A1248B390A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C100FEA-831F-47A0-8157-A1248B390A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C100FEA-831F-47A0-8157-A1248B390A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DECB762-19E6-4ECB-BBAA-036161D5E20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DECB762-19E6-4ECB-BBAA-036161D5E20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DECB762-19E6-4ECB-BBAA-036161D5E20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DECB762-19E6-4ECB-BBAA-036161D5E20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181F3A38-BB8A-4BD8-82CD-3DA542617116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181F3A38-BB8A-4BD8-82CD-3DA542617116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181F3A38-BB8A-4BD8-82CD-3DA542617116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181F3A38-BB8A-4BD8-82CD-3DA542617116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
