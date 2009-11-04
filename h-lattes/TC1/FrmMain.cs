@@ -110,5 +110,10 @@ namespace HLattes
             }
         }
 
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

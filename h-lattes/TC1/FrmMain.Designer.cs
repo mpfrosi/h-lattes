@@ -35,8 +35,8 @@ namespace HLattes
             this.porArquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ofdSelectFile = new System.Windows.Forms.OpenFileDialog();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ofdSelectFile = new System.Windows.Forms.OpenFileDialog();
             this.mnuMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,16 +98,16 @@ namespace HLattes
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(113, 22);
             this.sobreToolStripMenuItem.Text = "Sobre";
             // 
-            // ofdSelectFile
-            // 
-            this.ofdSelectFile.Filter = "Arquivos txt|*.txt";
-            // 
             // opçõesToolStripMenuItem
             // 
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
             this.opçõesToolStripMenuItem.Click += new System.EventHandler(this.opçõesToolStripMenuItem_Click);
+            // 
+            // ofdSelectFile
+            // 
+            this.ofdSelectFile.Filter = "Arquivos txt|*.txt";
             // 
             // FrmMain
             // 
@@ -118,8 +118,9 @@ namespace HLattes
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnuMain;
             this.Name = "FrmMain";
-            this.Text = "FAAC";
+            this.Text = "h-lattes";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FrmMain_Load);
             this.mnuMain.ResumeLayout(false);
             this.mnuMain.PerformLayout();
             this.ResumeLayout(false);
