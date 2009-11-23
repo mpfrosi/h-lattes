@@ -479,17 +479,17 @@ namespace CurriculoParser
 
                 List<AutorInfo> lstReturn = new List<AutorInfo>();
 
-                string[] arrAutores = strHtml.Split(new string[] { "<li>" }, StringSplitOptions.RemoveEmptyEntries);
+                string[] arrAutores = strHtml.Split(new string[] { "<li>", "<LI>", "</li>", "</LI>" }, 
+                    StringSplitOptions.RemoveEmptyEntries);
 
                 for (int i = 0; i < arrAutores.Length; i++)
                 {
-                    arrAutores[i] = Parser.RemoveTag("li", arrAutores[i]);
-                    arrAutores[i] = Parser.RemoveTag("a", arrAutores[i], 2);
-
                     string strLink = "<a href=\"javascript:abreDetalhe('";
                     int pos = arrAutores[i].IndexOf(strLink);
                     string strKey = arrAutores[i].Substring(pos + strLink.Length, 10);
-                    string strAutor = arrAutores[i].Substring(0, pos - 1).Trim();
+
+                    arrAutores[i] = arrAutores[i].Substring(arrAutores[i].IndexOf('>') + 1);
+                    string strAutor = arrAutores[i].Substring(0, arrAutores[i].IndexOf('<')).Trim();
 
                     AutorInfo udtAutor = new AutorInfo();
                     udtAutor.Key = strKey;
