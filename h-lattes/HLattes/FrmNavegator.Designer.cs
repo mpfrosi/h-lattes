@@ -63,7 +63,7 @@ namespace HLattes
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(568, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Caso  não exista um código de segurança na página apresentada, é necessario  limp" +
+            this.label2.Text = "Caso  não exista um código de segurança na página apresentada, é necessário  limp" +
                 "ar os cookies do Internet Explorer.";
             // 
             // label3

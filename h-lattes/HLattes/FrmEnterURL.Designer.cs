@@ -68,7 +68,7 @@ namespace HLattes
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(217, 13);
             this.label1.TabIndex = 3;
-            this.label1.Text = "URL para Currículo Lattes à ser pesquisado:";
+            this.label1.Text = "URL para Currículo Lattes a ser pesquisado:";
             // 
             // ToolTips
             // 
