@@ -54,7 +54,7 @@ namespace Model
             get
             {
                 if (Key != null)
-                    return "http://buscatextual.cnpq.br/buscatextual/visualizacv.jsp?id=" + m_strKey;
+                    return "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=" + m_strKey;
                 else
                     return null;
             }

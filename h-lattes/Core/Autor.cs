@@ -58,7 +58,7 @@ namespace Core
         {
             try
             {
-                return this.m_udtLattesParser.RealisaBusca(_udtFiltro);
+                return this.m_udtLattesParser.RealizaBusca(_udtFiltro);
             }
             catch (Exception ex)
             {

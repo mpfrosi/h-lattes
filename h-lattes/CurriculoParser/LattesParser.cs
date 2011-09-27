@@ -69,19 +69,10 @@ namespace CurriculoParser
         /// </summary>
         /// <param name="_uriUrl"></param>
         /// <returns></returns>
-        public List<PublicacaoInfo> GetArtigos(Uri _uriUrl)
-        {
-            return this.GetArtigos(Parser.GetHtml(_uriUrl));
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="_uriUrl"></param>
-        /// <returns></returns>
         public AutorInfo GetAutor(Uri _uriUrl)
         { 
-            string strPage = Parser.GetHtml(_uriUrl);
+            string strPage = Parser.GetHtml(_uriUrl, MyConstants.MyCookies);
+
             AutorInfo udtReturn = GetAutor(strPage);
             udtReturn.Publicacoes = GetArtigos(strPage);
 
@@ -404,7 +395,7 @@ namespace CurriculoParser
         /// </remarks>
         /// <exception cref="">ParserException</exception>
         /// <returns></returns>
-        public List<AutorInfo> RealisaBusca(FiltroBuscaAutor _udtFiltro)
+        public List<AutorInfo> RealizaBusca(FiltroBuscaAutor _udtFiltro)
         {
             try
             {
